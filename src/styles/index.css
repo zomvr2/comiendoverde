@@ -92,6 +92,7 @@ hr {
 @media (max-width: 480px) {
   .hero {
     flex-direction: column;
+    height: 90vh;
   }
 
   .hero_left {
