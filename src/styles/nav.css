@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background-color: white;
+  background-color: #fffbf4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,7 @@ nav .logo {
 
 .nav_scrolled {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #FDF5E6;
 }
 
 .nav_scrolled .logo {

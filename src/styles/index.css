@@ -83,6 +83,12 @@ body {
   text-decoration: none;
 }
 
+hr {
+  width: 30%;
+  margin: 0 auto;
+  color: #42372D;
+}
+
 @media (max-width: 480px) {
   .hero {
     flex-direction: column;
@@ -103,5 +109,9 @@ body {
 
   .hero_right {
     display: none;
+  }
+
+  hr {
+    width: 50%;
   }
 }
