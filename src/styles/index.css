@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FDF5E6;
+  color: #42372D;
   font-family: "Fira Sans", sans-serif;
 }
 
