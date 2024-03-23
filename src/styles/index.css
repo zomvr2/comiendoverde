@@ -89,10 +89,10 @@ hr {
   color: #42372D;
 }
 
-@media (max-width: 480px) {
+@media (max-height: 480px) {
   .hero {
-    flex-direction: column;
-    height: 90vh;
+    flex-direction: row;
+    min-height: 90vh;
   }
 
   .hero_left {
@@ -105,7 +105,47 @@ hr {
   }
 
   .hero_description {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .hero_cta {
+    font-size: 25px;
+  }
+
+  .hero_right img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  hr {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: row;
+    min-height: 90vh;
+  }
+
+  .hero_left {
+    gap: 10px;
+  }
+
+  .hero_title {
+    font-size: 50px;
+    line-height: 45px;
+  }
+
+  .hero_description {
+    font-size: 14px;
+  }
+
+  .hero_cta {
+    font-size: 25px;
   }
 
   .hero_right {
