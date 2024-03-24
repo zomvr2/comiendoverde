@@ -96,9 +96,7 @@ import "../styles/footer.css";
 				>
 			</div>
 			<div class="hero_right">
-				<img
-					src="nadine-primeau-l5Mjl9qH8VU-unsplash-min.jpg"
-				/>
+				<img src="nadine-primeau-l5Mjl9qH8VU-unsplash-min.jpg" />
 			</div>
 		</div>
 
@@ -349,9 +347,6 @@ import "../styles/footer.css";
 		} else if (window.scrollY <= window.innerHeight - buffer) {
 			nav.classList.remove("header_scrolled");
 		}
-
-		if (window.scrollY <= window.innerHeight / 2)
-			history.pushState(null, null, "#");
 	});
 
 	const sections = document.querySelectorAll("section");
