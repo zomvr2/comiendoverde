@@ -1,6 +1,6 @@
 ---
 import "../styles/index.css";
-import "../styles/nav.css";
+import "../styles/header.css";
 import "../styles/section.css";
 ---
 
@@ -52,58 +52,58 @@ import "../styles/section.css";
 	</head>
 
 	<body>
-		<main>
-			<div class="hero">
-				<div class="hero_left">
-					<div class="spacer"></div>
-					<div class="hero_information">
-						<h1 class="hero_title">
-							Tu salud,<br />
-							<span class="hero_title_highlight"> En tus manos </span>
-						</h1>
-						<p class="hero_description">
-							Descubre los pros y contras de la dieta vegana y vegetariana.
-						</p>
-					</div>
-					<a
-						href="#conoce-las-variedades-de-la-dieta-plant-based"
-						class="hero_cta">DESCUBRE MÁS</a
-					>
+		<div class="hero">
+			<div class="hero_left">
+				<div class="spacer"></div>
+				<div class="hero_information">
+					<h1 class="hero_title">
+						Tu salud,<br />
+						<span class="hero_title_highlight"> En tus manos </span>
+					</h1>
+					<p class="hero_description">
+						Descubre los pros y contras de la dieta vegana y vegetariana.
+					</p>
 				</div>
-				<div class="hero_right">
-					<img
-						src="https://images.unsplash.com/photo-1572357176061-7c96fd2af22f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-					/>
-				</div>
+				<a
+					href="#conoce-las-variedades-de-la-dieta-plant-based"
+					class="hero_cta">DESCUBRE MÁS</a
+				>
 			</div>
+			<div class="hero_right">
+				<img
+					src="https://images.unsplash.com/photo-1572357176061-7c96fd2af22f?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				/>
+			</div>
+		</div>
 
-			<nav>
-				<a href="/"> <img src="comiendoverde_logo.png" class="logo" /></a>
-			</nav>
+		<header>
+			<a href="/"> <img src="comiendoverde_logo.png" class="logo" /></a>
+		</header>
 
+		<main>
 			<section id="conoce-las-variedades-de-la-dieta-plant-based">
-				<h3>Conoce las Variedades de la Dieta Plant-Based</h3>
+				<h2>Conoce las Variedades de la Dieta Plant-Based</h2>
 				<p>
 					Existen varios tipos de dietas vegetarianas, que se diferencian en los
 					alimentos que incluyen y excluyen:
 				</p>
 				<ul>
 					<li>
-						<strong>Ovolactovegetariana:</strong><br />
+						<strong>Ovolactovegetariana:</strong>
 						Esta dieta excluye carne y pescado, pero incluye productos lácteos y
 						huevos.
 					</li>
 					<li>
-						<strong>Lactovegetariana:</strong><br />
+						<strong>Lactovegetariana:</strong>
 						Similar a la ovolactovegetariana, pero excluye los huevos y solo incluye
 						productos lácteos.
 					</li>
 					<li>
-						<strong>Ovovegetariana:</strong><br />
+						<strong>Ovovegetariana:</strong>
 						Excluye carne, pescado y lácteos, pero incluye huevos.
 					</li>
 					<li>
-						<strong>Vegetariana estricta o vegana:</strong><br />
+						<strong>Vegetariana estricta o vegana:</strong>
 						Excluye cualquier producto de origen animal, incluyendo carne, pescado,
 						lácteos, huevos y miel. Además de estas, existen variantes menos comunes
 						como la dieta crudivegana (que incluye principalmente alimentos crudos)
@@ -120,15 +120,15 @@ import "../styles/section.css";
 			<section
 				id="dilemas-del-vegetarianismo-riesgos-y-beneficios-a-considerar"
 			>
-				<h3>Dilemas del Vegetarianismo: Riesgos y Beneficios a Considerar</h3>
+				<h2>Dilemas del Vegetarianismo: Riesgos y Beneficios a Considerar</h2>
 				<p>
 					Tener una dieta vegana o vegetariana puede tener tanto riesgos como
 					beneficios:
 				</p>
-				<h4>Beneficios:</h4>
+				<h3>Beneficios:</h3>
 				<ul>
 					<li>
-						<strong>Menor riesgo de enfermedades crónicas:</strong><br />
+						<strong>Menor riesgo de enfermedades crónicas:</strong>
 						Las dietas veganas y vegetarianas suelen ser más altas en fibra, antioxidantes
 						y otros nutrientes beneficiosos, lo que puede reducir el riesgo de enfermedades
 						crónicas como enfermedades cardíacas, diabetes tipo 2 y ciertos tipos
@@ -142,16 +142,16 @@ import "../styles/section.css";
 						contribuir a la salud cardiovascular.
 					</li>
 					<li>
-						<strong>Promoción de la pérdida de peso:</strong><br />
+						<strong>Promoción de la pérdida de peso:</strong>
 						Las dietas basadas en plantas tienden a ser más bajas en calorías y grasas,
 						lo que puede ayudar a mantener un peso saludable o promover la pérdida
 						de peso.
 					</li>
 				</ul>
-				<h4>Riesgos:</h4>
+				<h3>Riesgos:</h3>
 				<ul>
 					<li>
-						<strong>Deficiencias nutricionales:</strong><br />
+						<strong>Deficiencias nutricionales:</strong>
 						Las dietas veganas y vegetarianas pueden ser deficientes en ciertos nutrientes
 						clave, como proteínas, hierro, calcio, vitamina B12, omega-3 y zinc,
 						si no se planifican adecuadamente.
@@ -159,7 +159,7 @@ import "../styles/section.css";
 					<li>
 						<strong
 							>Posible aumento de riesgo de deficiencia de vitamina B12:</strong
-						><br />
+						>
 						La vitamina B12 se encuentra principalmente en alimentos de origen animal,
 						por lo que los veganos corren un mayor riesgo de deficiencia si no consumen
 						alimentos enriquecidos o suplementos.
@@ -167,7 +167,7 @@ import "../styles/section.css";
 					<li>
 						<strong
 							>Posible dificultad para obtener suficiente proteína completa:</strong
-						><br />
+						>
 						Las fuentes de proteínas completas (que contienen todos los aminoácidos
 						esenciales) son principalmente de origen animal, por lo que los veganos
 						y vegetarianos deben prestar atención para asegurar una ingesta adecuada
@@ -188,19 +188,119 @@ import "../styles/section.css";
 					necesario, la suplementación adecuada.
 				</p>
 			</section>
+
+			<hr />
+
+			<section id="como-pueden-los-vegetarianos-estrictos-tener-una-alimentacion-equilibrada">
+				<h2>
+					¿Cómo pueden los vegetarianos estrictos tener una alimentación
+					equilibrada?
+				</h2>
+				<p>
+					A usted tal vez le preocupe no poder obtener todos los nutrientes que
+					necesita con una dieta vegana. Pero siempre y cuando coma una variedad
+					de alimentos, solo hay unas pocas cosas a las que tiene que prestar
+					especial atención.
+				</p>
+				<ul>
+					<li>
+						<strong>Calcio:</strong> Para las personas que no consumen productos
+						lácteos. Si no obtiene el calcio de productos lácteos, es necesario que
+						coma una gran cantidad de otros alimentos ricos en calcio. Los cereales
+						para el desayuno, la leche de soya y el jugo de naranja enriquecidos
+						con calcio son buenas opciones. Enriquecido con calcio significa que
+						el fabricante ha agregado calcio al alimento. Otros alimentos que contienen
+						calcio incluyen determinadas legumbres, ciertas verduras de hojas verdes,
+						nueces, semillas y tofu. Si usted no consume alimentos enriquecidos con
+						calcio, pregúntele a su médico si debe tomar un suplemento diario de
+						calcio.
+					</li>
+					<li>
+						<strong>Vitamina D:</strong> Para las personas que no consumen productos
+						lácteos. Consumir suficiente calcio y vitamina D es importante para mantener
+						los huesos fuertes. Las personas que no consumen productos lácteos pueden
+						utilizar leche de soya y cereales para el desayuno enriquecidos.
+					</li>
+					<li>
+						<strong>Hierro:</strong> Obtener suficiente hierro no es un problema
+						para los vegetarianos estrictos que se esfuerzan por comer una amplia
+						variedad de alimentos. Nuestro cuerpo no absorbe el hierro de los alimentos
+						de origen vegetal igual de bien que el de las carnes. Así que es importante
+						que los vegetarianos estrictos coman regularmente alimentos ricos en
+						hierro. Las fuentes de hierro veganas incluyen frijoles cocidos, arvejas
+						y lentejas, verduras de hoja verde y productos hechos de granos enriquecidos
+						con hierro. Y comer alimentos ricos en vitamina C ayuda al cuerpo a absorber
+						el hierro.
+					</li>
+					<li>
+						<strong>Vitamina B12:</strong> La vitamina B12 procede solo de fuentes
+						animales. Si usted es vegetariano estricto, tendrá que depender de alimentos
+						enriquecidos con esta vitamina (por ejemplo, leche de soya y cereales
+						para el desayuno) o tomar suplementos. Esto es especialmente importante
+						para las mujeres veganas que están embarazadas o amamantando.
+					</li>
+				</ul>
+				<p>
+					También puede obtener las vitaminas y los minerales enumerados
+					anteriormente como suplementos. Al igual que las demás personas, los
+					vegetarianos estrictos también tienen que asegurarse de que obtienen
+					los siguientes nutrientes:
+				</p>
+				<ul>
+					<li>
+						<strong>Proteínas:</strong> Al considerar una dieta vegana, a muchas
+						personas les preocupa no ingerir suficientes proteínas. Pero comer una
+						amplia variedad de alimentos ricos en proteínas como productos de soya,
+						legumbres, granos, frutos secos y semillas le proporcionará las proteínas
+						que usted necesita.
+					</li>
+					<li>
+						<strong>Ácidos grasos omega-3:</strong> Sin pescado ni huevos en su dieta,
+						es necesario que encuentre otras buenas fuentes de ácidos grasos omega-3,
+						como semillas de cáñamo, semillas de lino, semillas de calabaza, nueces
+						de nogal ("walnuts"), ciertas verduras de hoja verde, aceite de soya,
+						aceite de canola y verduras marinas (como arame, dulse, nori, algas,
+						kombu o wakame).
+					</li>
+					<li>
+						<strong>Zinc:</strong> Su cuerpo absorbe mejor el zinc cuando proviene
+						de la carne que cuando proviene de plantas. Sin embargo, los vegetarianos
+						estrictos no suelen tener problemas para obtener suficiente zinc si comen
+						una gran variedad de otros alimentos que son buenas fuentes de zinc,
+						incluyendo panes integrales, frijoles cocidos y lentejas, alimentos de
+						soya y verduras.
+					</li>
+				</ul>
+			</section>
 		</main>
 	</body>
 </html>
 
 <script>
-	const nav = document.querySelector("nav");
-	const buffer = 20; // Adjust this value as needed
+	const nav = document.querySelector("header");
+	const buffer = 15; // Adjust this value as needed
 
 	window.addEventListener("scroll", () => {
 		if (window.scrollY >= window.innerHeight + buffer) {
-			nav.classList.add("nav_scrolled");
+			nav.classList.add("header_scrolled");
 		} else if (window.scrollY <= window.innerHeight - buffer) {
-			nav.classList.remove("nav_scrolled");
+			nav.classList.remove("header_scrolled");
 		}
+
+		if (window.scrollY <= window.innerHeight / 2) history.pushState(null, null, "/");
+	});
+
+	const sections = document.querySelectorAll("section");
+
+	const observer = new IntersectionObserver((entries, observer) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				history.pushState(null, null, `#${entry.target.id}`);
+			}
+		});
+	}, { threshold: 0.7 });
+
+	sections.forEach((section) => {
+		observer.observe(section);
 	});
 </script>

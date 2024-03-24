@@ -1,4 +1,4 @@
-nav {
+header {
   width: 100%;
   background-color: #fffbf4;
   display: flex;
@@ -8,16 +8,16 @@ nav {
   top: 0;
 }
 
-nav .logo {
+header .logo {
   width: 100px;
   transition: width 0.1s linear;
 }
 
-.nav_scrolled {
+.header_scrolled {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   background-color: #FDF5E6;
 }
 
-.nav_scrolled .logo {
+.header_scrolled .logo {
   width: 70px;
 }

@@ -1,25 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 80px 50px;
+}
+
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   max-width: 950px;
   margin: 0 auto;
-  min-height: 50vh;
-  padding: 80px 50px 30px 50px;
   gap: 15px;
-  scroll-margin: 60px;
+  scroll-margin: 140px;
 }
 
-section h3 {
+section h2 {
   font-size: 25px;
   text-align: center;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 
-section h4 {
+section h3 {
   font-size: 20px;
   text-align: left;
   font-weight: 700;
+  margin-top: 10px;
 }
 
 section p {
@@ -32,7 +38,8 @@ section ul li {
   text-align: left;
 }
 
-ol, ul {
+ol,
+ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
