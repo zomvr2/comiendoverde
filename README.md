@@ -12,4 +12,4 @@ El contenido proporcionado en la página busca informar a los visitantes sobre l
 
 ---
 
-Este proyecto está bajo la [Licencia MIT](https://opensource.org/license/mit). Puedes encontrar más detalles en el [repositorio de GitHub](https://github.com/zomvr2/comiendoverde).
+Este proyecto está bajo la [Licencia MIT](https://opensource.org/license/mit). 
