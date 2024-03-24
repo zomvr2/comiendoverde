@@ -1,47 +1,15 @@
-# Astro Starter Kit: Minimal
+# Comiendo Verde
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Este repositorio contiene el código fuente de la página web "Comiendo Verde", la cual tiene como propósito principal educar sobre la dieta vegana y vegetariana, así como proporcionar información sobre sus beneficios para la salud y cómo planificar una dieta basada en plantas completa y nutritiva.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+La página incluye secciones que abordan:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Las variedades de la dieta plant-based.
+- Los dilemas del vegetarianismo, incluyendo riesgos y beneficios a considerar.
+- Consejos sobre cómo los vegetarianos estrictos pueden mantener una alimentación equilibrada.
 
-## 🚀 Project Structure
+El contenido proporcionado en la página busca informar a los visitantes sobre los aspectos fundamentales de la dieta vegana y vegetariana, así como ofrecer orientación para aquellos que estén interesados en adoptar este estilo de vida alimenticio.
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Este proyecto está bajo la [Licencia MIT](https://opensource.org/license/mit). Puedes encontrar más detalles en el [repositorio de GitHub](https://github.com/zomvr2/comiendoverde).

@@ -9,11 +9,32 @@ import "../styles/footer.css";
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Para dispositivos Android -->
 		<link
-			rel="shortcut icon"
-			href="comiendoverde_logo.png"
-			type="image/x-icon"
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="android-chrome-192x192.png"
 		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="512x512"
+			href="android-chrome-512x512.png"
+		/>
+
+		<!-- Para dispositivos Apple -->
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+		<!-- Favicon general -->
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+		<link rel="shortcut icon" href="favicon.ico" />
+
+		<!-- Favicon para Microsoft Edge -->
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta name="msapplication-TileImage" content="favicon-32x32.png" />
+
 		<title>Descubre la Dieta Vegana y Vegetariana: Comiendo Verde</title>
 		<meta
 			name="description"
@@ -306,7 +327,8 @@ import "../styles/footer.css";
 			<div class="links">
 				<p>
 					Copyright &copy; {new Date().getFullYear()} | <a
-						href="https://opensource.org/license/mit" target="_blank">MIT License</a
+						href="https://opensource.org/license/mit"
+						target="_blank">MIT License</a
 					>
 				</p>
 				<a href="https://github.com/zomvr2/comiendoverde" target="_blank">
